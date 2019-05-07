@@ -226,6 +226,11 @@ module.exports = {
       "Liberation Mono",
       "Courier New",
       "monospace"
+    ],
+    brand: [
+      "Lato",
+      "Droid sans",
+      "sans-serif"
     ]
   },
 

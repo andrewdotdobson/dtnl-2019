@@ -1,10 +1,9 @@
 import React from "react";
-
 import LayoutMain from "../components/layoutmain";
 import SEO from "../components/seo";
-import RPMPhoto from "../images/andydom.jpg";
 import BGImg from "../images/suf1.jpg";
 
+//https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering//
 
 function DigitonalPage() {
     return (
@@ -17,7 +16,7 @@ function DigitonalPage() {
             <div className="flex flex-col md:flex-row">
                 <div className=" leading-normal text-lg md:text-base">
                     <p className="">
-                    Hello
+                    
                     </p>
                 </div>
             </div>

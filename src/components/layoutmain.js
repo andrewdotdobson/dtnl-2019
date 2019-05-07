@@ -4,6 +4,8 @@ import { StaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
 
+
+
 function LayoutMain({ children, BGImage }) {
   console.log(BGImage);
   return (
@@ -23,6 +25,7 @@ function LayoutMain({ children, BGImage }) {
           <div className="flex flex-col flex-1 max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
             {children}
           </div>
+        
         </div>
       )}
     />

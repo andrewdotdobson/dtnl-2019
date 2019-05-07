@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 
-function Header({ siteTitle}) {
+function Header({siteTitle}) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
@@ -33,6 +33,17 @@ function Header({ siteTitle}) {
           } md:block md:flex md:items-center w-full`}
         >
           <div className=" text-3xl md:text-3xl font-hairline font-serif">
+
+          <Link to="/about" className=" block mt-4 mr-6 no-underline text-white hover:text-orange">
+          
+          <span className="">About</span>
+        </Link>
+
+        <Link to="/live" className="block mt-4 mr-6 no-underline text-white hover:text-orange">
+          
+          <span className="">Live</span>
+        </Link>
+            
             <a
               href="https://soundcloud.com/digitonal"
               className="block mt-4 mr-6 no-underline text-white hover:text-orange"

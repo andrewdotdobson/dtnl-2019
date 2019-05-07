@@ -65,10 +65,11 @@ function SEO({ description, lang, meta, keywords, title }) {
           >
           <link href="https://fonts.googleapis.com/css?family=Dosis:500|EB+Garamond" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" />
           
           </Helmet>
         );
-      }}
+      }}  
     />
   );
 }

@@ -2,11 +2,10 @@ import React from "react";
 
 import LayoutMain from "../components/layoutmain";
 import SEO from "../components/seo";
-import RPMPhoto from "../images/andydom.jpg";
-import BGImg from "../images/andy_uc3.jpg";
+import BGImg from "../images/andy_live.jpg";
 
 
-function AboutPage() {
+function LivePage() {
     return (
         <LayoutMain BGImage={BGImg}>
             <SEO
@@ -38,4 +37,4 @@ function AboutPage() {
     );
 }
 
-export default AboutPage;
+export default LivePage;
