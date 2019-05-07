@@ -44,7 +44,9 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.16.4",
-    "tailwindcss": "^0.7.4"
+    "tailwindcss": "^0.7.4",
+    "tailwindcss-aspect-ratio": "^1.0.3",
+    "tailwindcss-responsive-embed": "^0.2.2"
   },
   "repository": {
     "type": "git",
