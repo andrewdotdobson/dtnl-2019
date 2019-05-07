@@ -3,7 +3,7 @@ import React from "react";
 import LayoutMain from "../components/layoutmain";
 import SEO from "../components/seo";
 import RPMPhoto from "../images/andydom.jpg";
-import BGImg from "../images/andy_uc3.jpg";
+import BGImg from "../images/dtnl_22rpm.jpg";
 
 
 function AboutPage() {
@@ -15,9 +15,9 @@ function AboutPage() {
                 />
             
            
-            <div className="flex flex-col md:flex-row items-center">
+            <div className="flex flex-col md:flex-row items-center bg-black p-4 rounded">
 
-                <div className="md:w-1/2 leading-normal text-lg md:text-base  pr-4">
+                <div className="md:w-1/2 leading-normal text-lg md:text-base ">
                     <p className="">
                     Digitonal are a London, UK based band who have been working at the intersection of ambient electronica, melodic IDM and neo-classical minimalism since 1997. 
                     </p><p className="pt-2">
