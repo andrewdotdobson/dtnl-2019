@@ -13,13 +13,15 @@ function DigitonalPage() {
                 keywords={[`digitonal`, `music`, `IDM`, `ambient`,`electronica`,`neoclassical`,`marconi union`,`Just Music`,`Toytronic`,`The Ambient Zone`,`Jon Hopkins`,`Philip Glass`,`Steve Reich`]}
                 />
             
-            <div className="flex flex-col md:flex-row">
-                <div className=" leading-normal text-lg md:text-base">
-                    <p className="">
-                    
+           { /*
+            <div className="flex flex-col md:flex-row content-start">
+                <div className="w-full p-2 mt-32 text-center bg-black rounded">
+                    <p className="leading-normal text-lg md:text-3xl font-brand uppercase">
+                        Set the weather fair
                     </p>
                 </div>
             </div>
+            */ }
         </LayoutMain>
     );
 }
