@@ -22,6 +22,14 @@ function DigitonalPage() {
                 </div>
             </div>
             */ }
+
+            <div className="flex md:flex-row items-top">
+                <div className="md:w-2/3 leading-normal text-lg md:text-base">
+                    <p className="font-sans my-32 leading-normal pl-4 text-justify border-l-4 border-orange">
+                   &quot;<em>While the rest of the world spent the naughties lurching from one musical fad to the next, Digitonal quietly created some of the most beautifully constructed art of the decade.</em>&quot; - MusicOHM review of Be Still my Bleeping Heart
+                    </p>
+                </div>
+            </div>
         </LayoutMain>
     );
 }
