@@ -22,7 +22,7 @@ function LayoutMain({ children, BGImage }) {
       render={data => (
         <div className="flex flex-col font-sans pt-6 min-h-screen text-grey-lightest bg-black bg-cover" style={{backgroundImage:`url(${BGImage})`}}>
           <Header siteTitle={data.site.siteMetadata.title} />
-          <div className="flex flex-col flex-1 max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+          <div className="flex flex-col flex-1 max-w-3xl mx-auto px-4 py-8 md:p-8 w-full">
             {children}
           </div>
         

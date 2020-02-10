@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 import BGImg from "../images/andy_live.jpg";
 import EventCard from "../components/library/eventCard";
 
-import e1 from "../images/live/ciaf.jpg";
+import e1 from "../images/live/april2020.jpg";
 
 function LivePage() {
   return (
@@ -34,11 +34,11 @@ function LivePage() {
         <EventCard 
         
           eventImage = {e1}
-          eventImageAlt = "Chilled in a Field"
-          eventDate = "27th July 2019"
-          eventTitle = "Chilled in a Field"
-          eventLocation = "East Sussex, UK"
-          eventCTALink = "http://www.chilledinafieldfestival.co.uk/"
+          eventImageAlt = "Ultramarine, Digitonal and Chris Coco at Rich Mix"
+          eventDate = "17th April 2020"
+          eventTitle = "Ultramarine, Digitonal and Chris Coco"
+          eventLocation = "Rich Mix, London"
+          eventCTALink = "https://www.ents24.com/london-events/rich-mix/ultramarine-digitonal/5986083"
           eventCTAText = "Get Tickets"
         />
 

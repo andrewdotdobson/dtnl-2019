@@ -1,7 +1,7 @@
 import React from "react";
 import LayoutMain from "../components/layoutmain";
 import SEO from "../components/seo";
-import BGImg from "../images/suf1.jpg";
+import BGImg from "../images/devon.jpg";
 
 //https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering//
 
