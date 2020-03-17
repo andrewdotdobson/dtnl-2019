@@ -35,11 +35,11 @@ function LivePage() {
         
           eventImage = {e1}
           eventImageAlt = "Ultramarine, Digitonal and Chris Coco at Rich Mix"
-          eventDate = "17th April 2020"
+          eventDate = "POSTPONED"
           eventTitle = "Ultramarine, Digitonal and Chris Coco"
           eventLocation = "Rich Mix, London"
           eventCTALink = "https://www.ents24.com/london-events/rich-mix/ultramarine-digitonal/5986083"
-          eventCTAText = "Get Tickets"
+          eventCTAText = "EVENT POSTPONED"
         />
 
       

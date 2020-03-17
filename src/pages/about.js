@@ -3,7 +3,7 @@ import React from "react";
 import LayoutMain from "../components/layoutmain";
 import SEO from "../components/seo";
 import RPMPhoto from "../images/andydom.jpg";
-import BGImg from "../images/dtnl_22rpm.jpg";
+import BGImg from "../images/suf1.jpg";
 
 function AboutPage() {
   return (
