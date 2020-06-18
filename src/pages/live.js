@@ -6,6 +6,7 @@ import BGImg from "../images/andy_live.jpg";
 import EventCard from "../components/library/eventCard";
 
 import e1 from "../images/live/april2020.jpg";
+import e2 from "../images/live/littlechill.jpg";
 
 function LivePage() {
   return (
@@ -29,7 +30,18 @@ function LivePage() {
         ]}
       />
 
-      <div className="flex flex-wrap items-center">
+      <div className="flex flex-wrap items-top">
+
+      <EventCard 
+        
+        eventImage = {e2}
+        eventImageAlt = "The Little Chill Festival"
+        eventDate = "19th-21st June"
+        eventTitle = "An exclusive presentation of a filmed live performance of material from our new album. Please click the button for full lineup and schedule info."
+        eventLocation = "Streamed online"
+        eventCTALink = "https://www.campfire.world/little-chill"
+        eventCTAText = "Info and full lineup"
+      />
         
         <EventCard 
         
