@@ -5935,8 +5935,8 @@ path-key@^2.0.0, path-key@^2.0.1:
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
 
 path-root-regex@^0.1.0:
   version "0.1.2"
@@ -7720,6 +7720,18 @@ table@^5.2.3:
     lodash "^4.17.11"
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
+
+tailwindcss-aspect-ratio@^1.0.1, tailwindcss-aspect-ratio@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/tailwindcss-aspect-ratio/-/tailwindcss-aspect-ratio-1.0.3.tgz#7aa7cb73ffeeb9f69cedebbfd3980176b14a256f"
+  dependencies:
+    lodash "^4.17.11"
+
+tailwindcss-responsive-embed@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/tailwindcss-responsive-embed/-/tailwindcss-responsive-embed-0.2.2.tgz#107ad430a8e456c188d34bd59645fed918389808"
+  dependencies:
+    tailwindcss-aspect-ratio "^1.0.1"
 
 tailwindcss@^0.7.4:
   version "0.7.4"
